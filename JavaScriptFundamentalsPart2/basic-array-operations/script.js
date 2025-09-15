@@ -1,3 +1,4 @@
+/*
 const friends = ['Jonas', 'Steven', 'Peter'];
 
 // Add Element
@@ -21,3 +22,18 @@ console.log(friends.indexOf('Jonas'));
 
 friends.push(23);
 console.log(friends.includes(23));
+*/
+
+// Exercise
+const neighbours = ['Thailand', 'Cambodia', 'China', 'Sweden'];
+neighbours.push('Utopia');
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+if (!neighbours.includes('Germany')) {
+  console.log('Probably not a central european country :D');
+}
+
+const indexSweden = neighbours.indexOf('Sweden');
+neighbours[indexSweden] = 'Republic of Sweden';
+console.log(neighbours);
