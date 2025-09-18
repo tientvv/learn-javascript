@@ -25,7 +25,7 @@ else console.log('No borders!');
 
 /*
   Why we should use the === operator and type conversion in this situation?
-  Theo cách hiểu:
-  - === nó sẽ là so sánh cả dữ liệu và kiểu dữ liệu vd: '18' === 18 => fase
-  - == chỉ so sánh dữ liệu '18' == 18 => true
+  As I see it:
+  - === will compare both the value and the data type ex: '18' === 18 => fase
+  - == only compares the value '18' == 18 => true
 */
