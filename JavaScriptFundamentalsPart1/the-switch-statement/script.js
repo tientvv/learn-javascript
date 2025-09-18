@@ -29,7 +29,7 @@ switch (day) {
 const languages = 'chinese';
 
 switch (languages) {
-  case 'chinese': // ||
+  case 'chinese': //  languages === 'chinese' || languages === 'mandarin'
   case 'mandarin':
     console.log('MOST number of native speakers!');
     break;
