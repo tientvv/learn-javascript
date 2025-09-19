@@ -50,3 +50,7 @@ const percentages = [
 ];
 
 console.log(percentages);
+
+if (friends.includes('Peter')) {
+  console.log('You have a friend called Peter!');
+}
